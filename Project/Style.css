@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+  background-color: white;
+  color: rgb(186, 75, 75);
+  height: 120px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: rgb(186, 75, 75);
+}
+
+#logo {
+  position: absolute;
+  mix-blend-mode: darken;
+  top: 45px;
+  left: 145px;
+}
+
+#img1 {
+  mix-blend-mode: darken;
+  display: inline-block;
+  position: absolute;
+  top: 38px;
+  left: 400px;
+}
+
+#txt1 {
+  display: inline-block;
+  position: absolute;
+  font-size: 18px;
+  top: 52px;
+  left: 470px;
+}
+
+#img2 {
+  mix-blend-mode: darken;
+  position: absolute;
+  display: inline-block;
+  height: 45px;
+  top: 50px;
+  left: 800px;
+}
+
+#txt2 {
+  display: inline-block;
+  position: absolute;
+  font-size: 18px;
+  top: 55px;
+  left: 856px;
+}
+
+#img3 {
+  mix-blend-mode: darken;
+  position: absolute;
+  display: inline-block;
+  height: 35px;
+  top: 52px;
+  left: 1050px;
+}
+
+#txt3 {
+  display: inline-block;
+  position: absolute;
+  font-size: 15px;
+  top: 54px;
+  left: 1100px;
+}
+
+marquee {
+  background-color: rgb(162, 128, 43);
+  color: black;
+}
+
+.content1 {
+  position: relative;
+  bottom: 6.6px;
+  height: 620px;
+  background-color: whitesmoke;
+  background-image: url("images/back1.jpg");
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  text-align: center;
+}
+#txt4 {
+  color: white;
+  position: relative;
+  top: 60px;
+}
+.tips {
+  position: relative;
+  display: flex;
+  padding-top: 50px;
+  background-color: white;
+  height: 300px;
+  color: black;
+  bottom: 5px;
+}
+.tips > .bx {
+  text-align: center;
+  mix-blend-mode: darken;
+  height: 100px;
+  width: 300px;
+  margin-left: 50px;
+  border-right: 2px solid brown;
+}
+.t1 {
+  height: 100px;
+  width: 100px;
+}
+.tips > .bx > h3 {
+  color: rgb(51, 91, 140);
+  padding: 10px;
+}
+
+.login {
+  position: absolute;
+  top: 330px;
+  left: 1040px;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  background: transparent;
+  backdrop-filter: blur(8px);
+  color: goldenrod;
+  border: 2px solid rgb(226, 215, 215);
+  border-radius: 10px;
+}
+.login td {
+  padding-top: 20px;
+}
+
+.login button {
+  padding-top: 20px;
+}
+
+.login p {
+  padding-top: 20px;
+}
+.login h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#sbtn {
+  position: relative;
+  left: 80px;
+}
+.login label {
+  padding-right: 5px;
+  padding-left: 10px;
+}
+.login a {
+  color: rgb(165, 33, 33);
+}
+.login input {
+  border-radius: 5px;
+  border-color: black;
+  background-color: rgb(216, 206, 206);
+  padding-left: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+  height: 30px;
+  width: 55px;
+  background-color: goldenrod;
+  color: rgb(159, 64, 64);
+  padding: 2px;
+}
